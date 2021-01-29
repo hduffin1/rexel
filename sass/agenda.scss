@@ -1,0 +1,257 @@
+.table-wrapper {
+    max-width: 750px;
+    padding-top: 40px;
+
+    h3{
+        background-color: $lightblue;
+        padding: 5px;
+        color: $white;
+    }
+}
+
+.agenda-images-wrapper {
+    max-width: 300px;
+    padding-top: 60px;
+
+    .images-section {
+        margin-bottom: 50px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.expert-session-holder {
+    padding-top: 40px;
+}
+
+/* expert session table (second one on page) */
+#tablepress-1 {
+    font-weight: 400;
+    font-size: 16px;
+
+    p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    tbody td {
+        border: 1px solid $lightblue;
+    }
+
+    thead th {
+        background-color: $lightgrey;
+    }
+
+    tfoot th {
+        border: 1px solid $lightblue;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    tr.row-1 {
+        border: 1px solid $lightblue;
+    }
+
+    .column-3, .column-4, .column-5, .column-6 {
+        text-align: center;
+    }
+
+    .group {
+        padding-top: 40%;
+        font-weight: 700;
+    }
+
+    .row-2 {
+        .column-3 {
+            background-color: $green;
+        }
+
+        .column-4 {
+            background-color: $yellow;
+        }
+
+        .column-5 {
+            background-color: $lightblue;
+        }
+
+        .column-6 {
+            background-color: $orange;
+        }
+    }
+
+    .row-4 {
+        .column-3 {
+            background-color: $yellow;
+        }
+
+        .column-4 {
+            background-color: $lightblue;
+        }
+
+        .column-5 {
+            background-color: $orange;
+        }
+
+        .column-6 {
+            background-color: $green;
+        }
+    }
+
+    .row-6 {
+        .column-3 {
+            background-color: $lightblue;
+        }
+
+        .column-4 {
+            background-color: $orange;
+        }
+
+        .column-5 {
+            background-color: $green;
+        }
+
+        .column-6 {
+            background-color: $yellow;
+        }
+    }
+
+    .row-8 {
+        .column-3 {
+            background-color: $orange;
+        }
+
+        .column-4 {
+            background-color: $green;
+        }
+
+        .column-5 {
+            background-color: $yellow;
+        }
+
+        .column-6 {
+            background-color: $lightblue;
+        }
+    }
+
+    th {
+       padding: 12px;
+    }
+
+    .row-1 {
+        .column-1, .column-2 {
+            width: 33%;
+        }
+    } 
+}
+
+/* morning session table (first one on page) */
+#tablepress-2 {
+    font-weight: 400;
+    font-size: 16px;
+
+    p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    tbody td {
+        border: 1px solid $lightblue;
+    }
+
+    tfoot th {
+        border: 1px solid $lightblue;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .column-1 {
+        background-color: $lightgrey;
+        color: $lightblue;
+        text-align: center;
+    }
+
+    .row-7 {
+        background-color: $darkblue;
+        color: $white;
+
+        .column-1 {
+            color: $white;
+            background-color: $darkblue;
+        }
+    }
+
+    th {
+       padding: 12px;
+    }
+
+    .row-1 {
+        .column-1 {
+            width: 10%;
+        }
+    } 
+}
+
+/* afternoon session table (third one on page) */
+#tablepress-3 {
+    font-weight: 400;
+    font-size: 16px;
+
+    p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    tbody td {
+        border: 1px solid $lightblue;
+    }
+
+    tfoot th {
+        border: 1px solid $lightblue;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .column-1 {
+        background-color: $lightgrey;
+        color: $lightblue;
+        text-align: center;
+    }
+
+    .row-2 {
+        .column-1, .column-2 {
+            background-color: $darkblue;
+            color: $white;
+        }
+    }
+
+    .row-6 {
+        .column-1, .column-2 {
+            background-color: $darkblue;
+            color: $white;
+        }
+    }
+
+    th {
+       padding: 12px;
+    }
+
+    .row-1 {
+        .column-1 {
+            width: 10%;
+        }
+    } 
+}
+
+.table-title {
+    color: $lightblue;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,56 @@
+.login-wrapper {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.login-content {
+    text-align: center;
+}
+
+#loginform {
+    .login-username {
+        :after {
+            content: "\a";
+            white-space: pre;
+        }
+        input {
+            border-radius: 5px;
+            width: 200px;
+            margin-top: 10px;
+            height: 35px;
+        }
+    }
+
+    .login-password {
+        :after {
+            content: "\a";
+            white-space: pre;
+        }
+
+        input {
+            border-radius: 5px;
+            width: 200px;
+            margin-top: 10px;
+            height: 35px;
+        }
+    }
+
+    .login-submit {
+        input {
+            height: 50px;
+            background-color: $lightblue;
+            margin: 0 auto;
+            border: none;
+            padding: 10px 40px;
+            display: block;
+            color: $white;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
