@@ -1,4 +1,4 @@
-<?php /* Template Name: Airmeet */ ?>
+<?php /* Template Name: Photobooth */ ?>
 
 <?php get_header(); ?>
 
@@ -33,7 +33,7 @@
         <?php if (is_user_logged_in()): ?>
 
         <div>
-            <div style="position: relative; padding-top: 56.25%;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.airmeet.com/event/96bc93f0-6085-11eb-a868-2b216864010d" frameborder="0" allowfullscreen="allowfullscreen" allow="microphone; camera">
+            <div style="position: relative; padding-top: 56.25%;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="" frameborder="0" allowfullscreen="allowfullscreen" allow="microphone; camera">
             </iframe></div>
         </div>
 
