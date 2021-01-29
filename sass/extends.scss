@@ -1,0 +1,37 @@
+.cta {
+    background-color: $lightblue;
+    position: relative;
+    padding: 5px 20px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    margin: 5px;
+    color: $white;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+
+    &:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 40px;
+        right: 100%;
+        background-color: $lightblue;
+        clip-path: polygon(100% 3%, 33% 52%, 100% 100%);
+    }
+
+    &:after {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 30px;
+        left: 100%;
+        background-color: $lightblue;
+        clip-path: polygon(0 0, 100% 51%, 0 100%);
+    }
+}
