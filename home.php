@@ -16,23 +16,31 @@
             </div>
 
             <div class="content-banner">
-                <h3>Join us virtually and get ready for take off!<br>
-                Please join us to hear our exciting five year mission.</h3>
+                <h3><strong>Welcome to Mission Possible</strong><br>
+                Please Log In with your email and password... relax, take a seat and prepare for take off!</h3>
             </div>
         </div>
     </div>
 </div>
 
-<div class="reg-wrapper">
+<div class="welcome-wrapper">
     <div class="container">
-        <div class="reg-box">
-            <div class="reg-banner">
-                <h2>Register Now</h2>
+        <div class="login-box">
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+        <?php the_content(); ?>
+        <?php endwhile; ?>
+
+            <div class="login-wrapper">
+                <h3>Login Now</h3>
+                <?php echo do_shortcode("[wp_login_form]"); ?>
             </div>
 
-            <div class="form-wrapper">
-                <?php the_field('reg_form');?>
+            <div class="btns-wrapper">
+                <a href="" class="cta">Agenda</a>
+                <a href="" class="cta">Technical support</a>
             </div>
+
+            <p class="queries">If you have any questions please contact <a href="mailto:rexel@firstevent.co.uk">rexel@firstevent.co.uk</a> </p>
         </div>
     </div>
 </div>

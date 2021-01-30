@@ -83,6 +83,11 @@ html {
   justify-content: space-between;
 }
 
+.queries {
+  margin-top: 40px;
+  text-align: center;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .flex {
@@ -562,6 +567,32 @@ header .nav-logo {
   padding-bottom: 50px;
 }
 
+.welcome-wrapper {
+  background-color: #01448c;
+}
+.welcome-wrapper .login-box {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.welcome-wrapper .login-box .login-wrapper h3 {
+  color: #fff;
+}
+.welcome-wrapper .login-box .login-wrapper .login-username {
+  color: #fff;
+}
+.welcome-wrapper .login-box .login-wrapper .login-password {
+  color: #fff;
+}
+.welcome-wrapper .login-box .login-wrapper a {
+  color: #fff;
+}
+.welcome-wrapper .queries {
+  color: #fff;
+}
+.welcome-wrapper .queries a {
+  color: #3da2db;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .heading-wrapper .conf-banner {
@@ -823,10 +854,6 @@ header .nav-logo {
 }
 .live-stream-wrapper .question-wrapper p {
   margin: 0;
-}
-.live-stream-wrapper .queries {
-  margin-top: 40px;
-  text-align: center;
 }
 
 /* Extra small devices (phones, 600px and down) */

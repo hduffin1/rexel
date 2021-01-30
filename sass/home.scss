@@ -211,6 +211,37 @@
     }
 }
 
+.welcome-wrapper {
+    background-color: $darkblue;
+
+    .login-box {
+        padding-top: 80px;
+        padding-bottom: 50px;
+
+        .login-wrapper {
+            h3 {
+                color: $white;
+            }
+            .login-username {
+                color: $white;
+            }
+            .login-password {
+                color: $white;
+            }
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    .queries {
+        color: $white;
+        a {
+            color: $lightblue;
+        }
+    }
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
