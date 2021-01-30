@@ -36,8 +36,8 @@
             </div>
 
             <div class="btns-wrapper">
-                <a href="" class="cta">Agenda</a>
-                <a href="" class="cta">Technical support</a>
+                <a href="agenda" class="cta">Agenda</a>
+                <a href="mailto:rexel@firstevent.co.uk" target="_blank" class="cta">Technical support</a>
             </div>
 
             <p class="queries">If you have any questions please contact <a href="mailto:rexel@firstevent.co.uk">rexel@firstevent.co.uk</a> </p>

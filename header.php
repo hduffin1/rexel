@@ -28,7 +28,7 @@
 
     <title></title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=34534589" />
+    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=30012021" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
   </head>
 <body>
