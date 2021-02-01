@@ -1,0 +1,38 @@
+.expert-session-holder {
+	#tablepress-4 {
+		font-weight: 400;
+	    font-size: 16px;
+
+	    p {
+	        margin: 0;
+	        margin-bottom: 10px;
+	    }
+
+	    tbody td {
+	        border: 1px solid $lightblue;
+	    }
+
+	    thead th {
+	        background-color: $lightgrey;
+	    }
+
+	    tfoot th {
+	        border: 1px solid $lightblue;
+	    }
+
+	    td {
+	        padding: 10px;
+	    }
+
+	    tr.row-1 {
+	        border: 1px solid $lightblue;
+	    }
+	}
+
+	.cta {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 60%;
+	}
+}

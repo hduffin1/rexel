@@ -15,7 +15,7 @@
 </div>
 
 <div class="live-stream-wrapper">
-    <div class="container">
+    <div class="container-lg">
         <?php if (is_user_logged_in()): ?>
 
         <div>
