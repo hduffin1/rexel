@@ -21,6 +21,8 @@
         <div>
             <div style="position: relative; padding-top: 56.25%;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.airmeet.com/event/96bc93f0-6085-11eb-a868-2b216864010d" frameborder="0" allowfullscreen="allowfullscreen" allow="microphone; camera">
             </iframe></div>
+            <br>
+            <a href="https://www.airmeet.com/event/96bc93f0-6085-11eb-a868-2b216864010d" class="cta" target="_blank">Click here to view the airmeet page</a>
         </div>
 
         <?php else: ?>
@@ -31,8 +33,8 @@
         <?php endif; ?>
 
         <div class="btns-wrapper">
-            <a href="" class="cta">Agenda</a>
-            <a href="" class="cta">Technical support</a>
+            <a href="agenda" class="cta">Agenda</a>
+            <a href="mailto:rexel@firstevent.co.uk" target="_blank" class="cta">Technical support</a>
         </div>
 
         <p class="queries">If you have any questions please contact <a href="mailto:rexel@firstevent.co.uk">rexel@firstevent.co.uk</a> </p>
